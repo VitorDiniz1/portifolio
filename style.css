@@ -1,0 +1,274 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: white;
+    font-family:' Montserrat';
+    transition: .5s;
+}
+
+
+.container{ 
+  width: 800px;
+  margin: 0 auto;
+}
+
+
+/****************
+
+    HEADER
+
+****************/
+
+.header{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 10px;
+  margin-bottom: 37px;
+  align-items: center;
+}
+
+h1{
+  margin-left: 10px;
+  color: rgb(120, 47, 190);
+  font-size: 40px;
+  font-family: Montserrat;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu li{
+    list-style: none;
+    position: relative;
+}
+
+.menu  li a{
+    color: rgb(120, 47, 190);
+    text-decoration: none;
+    padding: 17px;
+    font-size: 17px;
+    display: block;
+}
+
+.menu li:hover{
+    border-bottom: 1px solid rgb(120, 47, 190);
+}
+
+.menu li a:hover{
+font-size: 18px;
+
+}
+
+/****************
+
+    MODO DARK
+
+****************/
+
+.trilho{
+  width: 50px;
+  height: 20px;
+  background-color: #c3c3c3;
+  border-radius: 150px;
+  position: relative; /*Para o indicador ficar somente dentro do trilho*/
+  cursor: pointer;
+}
+
+.trilho .indicador{
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  transform: scale(0.9);/* para o elemento ficar mais no fundo e nao preencher tudo*/
+  position: absolute;
+  left: 0;
+  transition: .5s;
+}
+
+.trilho.ligth{
+  background-color:rgb(120, 47, 190);
+  ;
+}
+
+.trilho.ligth .indicador{
+  left: 30px;
+  background-color: #000;
+}
+
+body.ligth{
+  background-color: rgb(24, 28, 36);
+}
+
+body.ligth h1,h2,h3,p{
+  color: rgb(120, 47, 190);
+}
+
+/****************
+
+    MODO DARK
+
+****************/
+
+
+/****************
+
+    HEADER
+
+****************/
+
+
+
+
+/****************
+
+    HOME
+
+****************/
+
+
+section{
+    margin-top: 20px;
+}
+
+
+.margin{
+    margin-top: 20px;
+}
+
+.imgLado{
+    display: flex;
+}
+
+.imgBaixo{
+  margin-top: 50px;
+}
+
+.embaixo{
+    margin-left: 40px;
+}
+
+h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+p{
+  font-size: 20px;
+}
+
+
+.img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+
+.divBotao{
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+
+.sujeira{
+    text-decoration: none;
+  }
+
+  .lado1{
+    border: 2px solid rgb(120, 47, 190);
+    padding: 10px;
+    width: 130px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .lado2{
+    border: 2px solid rgb(120, 47, 190);
+    padding: 10px;
+    width: 130px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .lado3{
+    border: 2px solid  rgb(120, 47, 190);
+    padding: 10px;
+    width: 130px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  span{
+    margin: 10px;
+    margin-left: 4px;
+    color: rgb(120, 47, 190);
+  }
+
+  .lado1:hover{
+    background-color:  #DB4437;
+  }
+
+  .lado2:hover{
+    background-color: #9b8e8e;
+  }
+
+  .lado3:hover{
+    background-color: #268dc4;
+  }
+
+  /****************
+
+    HOME
+
+****************/
+
+
+
+
+  /****************
+
+    PROJETOS
+
+****************/
+
+h3{
+  font-size: 20px;
+}
+
+  .link{
+    text-decoration: none;
+    color: rgb(120, 47, 190);
+  }
+  .link:hover{
+    text-decoration: underline;
+    color: rgb(180, 107, 255);
+    cursor: pointer;
+  }
+  
+  .imgBarber{
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+  }
+
+/****************
+
+    PROJETOS
+
+****************/
+
+  .contatoh1{
+    text-align: center;
+}
