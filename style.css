@@ -148,8 +148,9 @@ body.ligth h1,h2,h3,p{
 
 @media screen and (max-width:730px){
 
+
   .nav-bar{
-    margin-right: 300px;
+    margin-right: 400px;
   }
 
   .nav-item{
@@ -166,13 +167,15 @@ body.ligth h1,h2,h3,p{
     display: block;
   }
 
+
   .menu-mobile-icon button .icon{
     background-color:white;
     border: none;
     cursor: pointer;
     width: 50px;
     height: 50px;
-    margin-left: 0px;
+    margin-left: 0;
+
   }
 
   .menu-mobile ul{
@@ -228,20 +231,20 @@ body.ligth h1,h2,h3,p{
 }
 
 .imgBaixo .img{
-  margin-left: 120px;
+  margin-left: 10px;
 }
 .embaixo h2{
-  margin-left:80px;
+  margin-left:10px;
 }
 .embaixo .texto p{
   width: 300px;
-  margin-left: 100px;
+  margin-left: 10px;
 }
 
 .divBotao{
   display: flex;
   flex-direction: column;
-  margin-left: 170px;
+  margin-left: 100px;
 }
 
 
@@ -257,7 +260,7 @@ body.ligth h1,h2,h3,p{
 
 ****************/
  .alinhar h2,h3,p,img{
-  margin-left: 120px;
+  margin-left: 10px;
 }
 
 .alinhar p{
