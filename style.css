@@ -149,7 +149,6 @@ body.ligth h1,h2,h3,p{
 @media screen and (max-width:730px){
 
   .nav-bar{
-    padding: 1.5rem 4rem;
     margin-right: 300px;
   }
 
@@ -163,7 +162,6 @@ body.ligth h1,h2,h3,p{
   }
 
 
-
   .menu-mobile-icon{
     display: block;
   }
@@ -174,6 +172,7 @@ body.ligth h1,h2,h3,p{
     cursor: pointer;
     width: 50px;
     height: 50px;
+    margin-left: 0px;
   }
 
   .menu-mobile ul{
@@ -220,9 +219,57 @@ body.ligth h1,h2,h3,p{
     HOME - Mobile
 
 ****************/
+.margin{
+  width: 730px;;
+}
+.imgLado{
+  display: flex;
+  flex-direction: column;
+}
+
+.imgBaixo .img{
+  margin-left: 120px;
+}
+.embaixo h2{
+  margin-left:80px;
+}
+.embaixo .texto p{
+  width: 300px;
+  margin-left: 100px;
+}
+
+.divBotao{
+  display: flex;
+  flex-direction: column;
+  margin-left: 170px;
+}
 
 
+/****************
 
+    HOME - Mobile
+
+****************/
+
+  /****************
+
+    PROJETOS - Mobile
+
+****************/
+ .alinhar h2,h3,p,img{
+  margin-left: 120px;
+}
+
+.alinhar p{
+  width: 370px;
+}
+
+
+  /****************
+
+    PROJETOS - Mobile
+
+****************/
 
 
 }

@@ -13,7 +13,7 @@ function aparecerMenu(){
 
     if(menuMobile.classList.contains('abrir')){
         menuMobile.classList.remove('abrir')
-        document.querySelector('.icon').src="menu_icon_icon-icons.com_71858.png"
+        document.querySelector('.icon').src="Menu_icon_icon-icons.com_71858.png"
     }else{
         menuMobile.classList.add('abrir')
         document.querySelector('.icon').src="x.webp"
