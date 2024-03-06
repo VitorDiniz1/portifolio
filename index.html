@@ -14,23 +14,39 @@
 <!---------------
     HEADER
 ----------------->
-        <header class="header">
-            <h1 class="logo">Vitor Diniz</h1>
-            <nav>
-                <ul class="menu">
-                    <li>
-                        <a href="#home">Home</a>
-                    </li>
-                    <li>
-                        <a href="#projetos">Projetos</a>
-                    </li>
-                    <li>
-                        <a href="#sobremim">Sobre mim</a>
-                    </li>
-                </ul>
+        <header>
+            <nav class="nav-bar">
+                <div class="logo">
+                    <h1>Vitor Diniz</h1>
+                </div>
+                <div class="nav-list">
+                    <ul>
+                        <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="#projetos" class="nav-link">Projetos</a></li>
+                        <li class="nav-item"><a href="#sobremim" class="nav-link">Sobre mim</a></li>
+                    </ul>
+                </div>
+
+                <div class="dark">
+                    <div class="trilho" id="trilho">
+                        <div class="indicador"></div>
+                    </div>
+                </div>
+
+                <div class="menu-mobile-icon">
+                    <button onclick="aparecerMenu()"><img class="icon" src="Menu_icon_icon-icons.com_71858.png"></button>
+                </div>
+
             </nav>
-            <div class="trilho" id="trilho">
-                <div class="indicador"></div>
+
+            <div class="menu-mobile">
+                <ul>
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#projetos" class="nav-link">Projetos</a></li>
+                    <li class="nav-item"><a href="#sobremim" class="nav-link">Sobre mim</a></li>
+                </ul>
+
+
             </div>
         </header>
 <!---------------
