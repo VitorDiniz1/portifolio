@@ -400,6 +400,7 @@ h3{
   .link{
     text-decoration: none;
     color: rgb(120, 47, 190);
+    margin-top: 3px;
   }
   .link:hover{
     text-decoration: underline;
